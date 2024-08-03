@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+ <!-- Remote -->
+  <remote name="rock" fetch="https://github.com/MT6789-Rock"/>
+  <remote name="shakib" fetch="https://github.com/Shakib-BD"/>
+  <remote name="mindthegapps" fetch="https://gitlab.com/MindTheGapps"/>
+  
+ <!-- Device Resources -->
+  <project path="device/xiaomi/rock" name="device_xiaomi_rock" remote="shakib" revision="lineage-21"/>
+  <project path="vendor/xiaomi/rock" name="vendor_xiaomi_rock" remote="shakib" revision="lineage-21"/>
+  <project path="kernel/xiaomi/rock" name="kernel_xiaomi_rock" remote="shakib" revision="lineage-21"/>
+  <project path="hardware/mediatek" name="hardware_mediatek" remote="rock" revision="lineage-21"/>
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="rock" revision="lineage-21"/>
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rock" revision="lineage-21"/>
+  <project path="vendor/gapps" name="vendor_gapps" remote="mindthegapps" revision="upsilon"/>
+    
+</manifest>
