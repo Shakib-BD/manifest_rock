@@ -12,5 +12,7 @@
   <project path="hardware/mediatek" name="hardware_mediatek" remote="rock" revision="lineage-21"/>
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="rock" revision="lineage-21"/>
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="rock" revision="lineage-21"/>
-    
+  <project path="vendor/lineage-priv/keys" name="signed_keys" remote="shakib" revision="lineage-21"/>
+  
+  
 </manifest>
